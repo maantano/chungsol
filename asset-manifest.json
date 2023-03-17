@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/chungsol/static/css/main.87183929.css",
-    "main.js": "/chungsol/static/js/main.d2177973.js",
+    "main.js": "/chungsol/static/js/main.8d742e66.js",
     "static/js/787.1748ff2e.chunk.js": "/chungsol/static/js/787.1748ff2e.chunk.js",
     "static/media/main_bg2.jpeg": "/chungsol/static/media/main_bg2.d180330f1cbab2d30e4a.jpeg",
     "static/media/main_bg3.jpeg": "/chungsol/static/media/main_bg3.95c64d67e567a15856c2.jpeg",
     "static/media/main_bg1.jpeg": "/chungsol/static/media/main_bg1.577e472d58bff1326095.jpeg",
     "index.html": "/chungsol/index.html",
     "main.87183929.css.map": "/chungsol/static/css/main.87183929.css.map",
-    "main.d2177973.js.map": "/chungsol/static/js/main.d2177973.js.map",
+    "main.8d742e66.js.map": "/chungsol/static/js/main.8d742e66.js.map",
     "787.1748ff2e.chunk.js.map": "/chungsol/static/js/787.1748ff2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87183929.css",
-    "static/js/main.d2177973.js"
+    "static/js/main.8d742e66.js"
   ]
 }
