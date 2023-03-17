@@ -27,10 +27,10 @@ const Detail = () => {
         <div className="subject">
           <ul className="clear itemList3">
             <li style={{ width: "50%" }}>
-              <Link to="/introduce">인사말</Link>
+              <Link to={`${process.env.PUBLIC_URL}/introduce`}>인사말</Link>
             </li>
             <li style={{ width: "50%" }}>
-              <Link to="/detail" className="on">
+              <Link to={`${process.env.PUBLIC_URL}/detail`} className="on">
                 센터 소개
               </Link>
             </li>

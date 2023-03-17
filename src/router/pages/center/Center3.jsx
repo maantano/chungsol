@@ -13,14 +13,13 @@ const Center3 = () => {
         <div className="subject">
           <ul className="clear itemList3">
             <li>
-              <Link to="/center">방문간호</Link>
+              <Link to={`${process.env.PUBLIC_URL}/center`}>방문간호</Link>
             </li>
             <li>
-              <Link to="/center2">방문요양</Link>
+              <Link to={`${process.env.PUBLIC_URL}/center2`}>방문요양</Link>
             </li>
             <li>
-              <Link to="/center3" className="on">
-                {" "}
+              <Link to={`${process.env.PUBLIC_URL}/center3`} className="on">
                 가족요양
               </Link>
             </li>

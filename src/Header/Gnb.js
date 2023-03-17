@@ -3,9 +3,9 @@ import "./GNB.css";
 
 function Gnb() {
   const menuList = [
-    { name: "Home", link: "/" },
-    { name: "센터소개", link: "/introduce" },
-    { name: "방문재가", link: "/center" },
+    { name: "Home", link: `${process.env.PUBLIC_URL}/` },
+    { name: "센터소개", link: `${process.env.PUBLIC_URL}/introduce` },
+    { name: "방문재가", link: `${process.env.PUBLIC_URL}/center` },
     // { name: "복지용품", link: "/goods" },
   ];
   return (

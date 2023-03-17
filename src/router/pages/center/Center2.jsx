@@ -13,16 +13,15 @@ const Center2 = () => {
         <div className="subject">
           <ul className="clear itemList3">
             <li>
-              <Link to="/center">방문간호</Link>
+              <Link to={`${process.env.PUBLIC_URL}/center`}>방문간호</Link>
             </li>
             <li>
-              <Link to="/center2" className="on">
+              <Link to={`${process.env.PUBLIC_URL}/center2`} className="on">
                 방문요양
               </Link>
             </li>
             <li>
-              {/* <a href="/visitingcare/info_fc.php">가족요양</a> */}
-              <Link to="/center3">가족요양</Link>
+              <Link to={`${process.env.PUBLIC_URL}/center3`}>가족요양</Link>
             </li>
           </ul>
         </div>

@@ -14,12 +14,12 @@ const Introduce = () => {
         <div className="subject">
           <ul className="clear itemList3">
             <li style={{ width: "50%" }}>
-              <Link to="/introduce" className="on">
+              <Link to={`${process.env.PUBLIC_URL}/introduce`} className="on">
                 인사말
               </Link>
             </li>
             <li style={{ width: "50%" }}>
-              <Link to="/detail">센터 소개</Link>
+              <Link to={`${process.env.PUBLIC_URL}/detail`}>센터 소개</Link>
             </li>
           </ul>
         </div>

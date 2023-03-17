@@ -15,13 +15,28 @@ const Router = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/introduce" element={<Introduce />} />
-          <Route path="/detail" element={<Detail />} />
-          <Route path="/center" element={<Center1 />} />
-          <Route path="/center2" element={<Center2 />} />
-          <Route path="/center3" element={<Center3 />} />
-          <Route path="/goods" element={<Goods />} />
+          <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+          <Route
+            path={process.env.PUBLIC_URL + "/introduce"}
+            element={<Introduce />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/detail"}
+            element={<Detail />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/center"}
+            element={<Center1 />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/center2"}
+            element={<Center2 />}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/center3"}
+            element={<Center3 />}
+          />
+          <Route path={process.env.PUBLIC_URL + "/goods"} element={<Goods />} />
         </Routes>
       </BrowserRouter>
     </>
