@@ -36,7 +36,7 @@ const Header = () => {
               </button> */}
 
               <a
-                href="/"
+                href={`${process.env.PUBLIC_URL}/`}
                 style={{
                   position: "relative",
                   lineHeight: "20px",
