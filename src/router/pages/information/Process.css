@@ -1,0 +1,25 @@
+.arrow {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.arrow:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  margin-top: 2px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+}
+.arrow.down:before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}

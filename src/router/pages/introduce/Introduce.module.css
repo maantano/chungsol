@@ -1,0 +1,44 @@
+.shadowCustom {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  position: relative; /* 부모 요소에 position: relative; 추가 */
+  z-index: 5; /* 이미지를 최상위로 위치시킴 */
+}
+
+.diagonalLine1::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 50%;
+  background-color: #d1cccc;
+  top: 25%;
+  left: 26%; /* 이미지 컨테이너의 가장자리에 대각선을 배치 */
+  transform: rotate(55deg);
+  z-index: -1;
+}
+
+.diagonalLine2::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 39%;
+  background-color: #d1cccc;
+  top: 17%; /* 대각선1과 조금 겹치게 위치 조절 */
+  left: 62%; /* 이미지 컨테이너의 가장자리에 대각선을 배치 */
+  transform: rotate(-62deg);
+  z-index: -1;
+}
+
+/* .diagonalLine2::before {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 30%;
+	background-color: red;
+	top: 26%;
+	left: 62%;
+	transform: rotate(-55deg);
+	z-index: -1;
+  } */
