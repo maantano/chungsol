@@ -44,7 +44,7 @@ const Fourth = () => {
 
             <div className="text-xl font-semibold">문의상담</div>
             <div className="text-base mt-3">010-8722-2262</div>
-            <div className="text-base">010-816-5355</div>
+            <div className="text-base">02-816-5200</div>
           </div>
         </div>
       </div>
