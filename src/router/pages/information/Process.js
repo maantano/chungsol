@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-import Header from "../../../Header/Header";
-import Footer from "../../../component/Footer";
 import IntroduceVisual from "../introduce/IntroduceVisual";
 import icon5 from "../../../asset/img/icon5.png";
 import icon8 from "../../../asset/img/icon8.png";
@@ -58,7 +56,7 @@ const Process = () => {
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                    <img src={icon5} className="w-[40px] h-[40px]" />
+                    <img src={icon5} className="w-[40px] h-[40px]" alt="" />
                   </div>
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-medium title-font text-gray-900 mb-1 text-2xl">
@@ -87,7 +85,7 @@ const Process = () => {
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                    <img src={icon1} className="w-[40px] h-[40px]" />
+                    <img src={icon1} className="w-[40px] h-[40px]" alt="" />
                   </div>
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-medium title-font text-gray-900 mb-1 text-2xl">
@@ -113,7 +111,7 @@ const Process = () => {
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-shrink-0 w-24 h-24 bg-blue-100 rounded-full inline-flex items-center justify-center">
-                    <img src={icon9} className="w-[40px] h-[40px]" />
+                    <img src={icon9} className="w-[40px] h-[40px]" alt="" />
                   </div>
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-medium title-font text-gray-900 mb-1 text-2xl">
@@ -139,14 +137,14 @@ const Process = () => {
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                    <img src={icon7} className="w-[40px] h-[40px]" />
+                    <img src={icon7} className="w-[40px] h-[40px]" alt="" />
                   </div>
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-medium title-font text-gray-900 mb-1 text-2xl">
                       계약서 작성
                     </h2>
                     <p className="leading-relaxed text-lg">
-                      방문요양에 관하여 상담 후 청솔 노인재가센터와 계약서를
+                      방문요양에 관하여 상담 후 청솔 재가노인복지센터와 계약서를
                       작성합니다.
                       <br />
                       결제 방법을 선택하시고 결제를 완료하시면 계약이 모두
@@ -164,7 +162,7 @@ const Process = () => {
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                    <img src={icon8} className="w-[40px] h-[40px]" />
+                    <img src={icon8} className="w-[40px] h-[40px]" alt="" />
                   </div>
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-medium title-font text-gray-900 mb-1 text-2xl">

@@ -7,8 +7,8 @@ const Gnb = () => {
       <div className="inner">
         <div className="top">
           <div className="size">
-            <h1 className="logo">청솔 재가노인복지센터</h1>
-            <div className="left">청솔 재가노인복지센터 / 02-816-5200</div>
+            <h1 className="logo">청솔재가노인복지센터</h1>
+            <div className="left">청솔재가노인복지센터 / 02-816-5200</div>
           </div>
         </div>
 

@@ -47,7 +47,7 @@ const Header = () => {
                   color: "white",
                 }}
               >
-                청솔 재가노인복지센터{/* <Logo width="100" height="30" /> */}
+                청솔재가노인복지센터
               </a>
             </div>
             <Gnb />

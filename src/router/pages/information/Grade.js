@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-import Header from "../../../Header/Header";
-import Footer from "../../../component/Footer";
 import IntroduceVisual from "../introduce/IntroduceVisual";
 import subVisual from "../../../asset/img/banner7.jpg";
 import No1 from "../../../asset/img/iconNum1.png";
@@ -59,7 +57,7 @@ const Grade = () => {
             <div className="container px-5 pt-24 mx-auto">
               <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                 <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <img src={No1} className="w-[40px] h-[40px]" />
+                  <img src={No1} className="w-[40px] h-[40px]" alt="" />
                 </div>
                 <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                   <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -83,13 +81,13 @@ const Grade = () => {
                   </p>
                 </div>
                 <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <img src={No2} className="w-[40px] h-[40px]" />
+                  <img src={No2} className="w-[40px] h-[40px]" alt="" />
                 </div>
               </div>
 
               <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                 <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <img src={No3} className="w-[40px] h-[40px]" />
+                  <img src={No3} className="w-[40px] h-[40px]" alt="" />
                 </div>
                 <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                   <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -116,12 +114,12 @@ const Grade = () => {
                   </p>
                 </div>
                 <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <img src={No4} className="w-[40px] h-[40px]" />
+                  <img src={No4} className="w-[40px] h-[40px]" alt="" />
                 </div>
               </div>
               <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
                 <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <img src={No5} className="w-[40px] h-[40px]" />
+                  <img src={No5} className="w-[40px] h-[40px]" alt="" />
                 </div>
                 <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                   <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -1043,7 +1041,6 @@ const Grade = () => {
           </section>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

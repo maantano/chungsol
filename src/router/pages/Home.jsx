@@ -5,13 +5,8 @@ import "../../asset/contents.css";
 import "../../asset/reset.css";
 import "../../asset/detail.css";
 
-import Header from "../../Header/Header";
-import Footer from "../../component/Footer";
-import { useEffect, useRef, useState } from "react";
-
 import Main from "../../component/Main";
 import Second from "../../component/Second";
-import Third from "../../component/Third";
 import Fourth from "../../component/Fourth";
 const Home = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../asset/common.css";
 import "../asset/detail.css";
 import "../asset/contents.css";
@@ -10,26 +10,9 @@ import icon5 from "../asset/img/icon5.png";
 import icon6 from "../asset/img/icon6.png";
 
 const Second = () => {
-  // useEffect(() => {
-  //   const opacityImage = document.querySelector(".scroll-opacity2");
-
-  //   const callback = ([entry], observer) => {
-  //     entry.target.style.opacity = entry.intersectionRatio;
-  //   };
-
-  //   const observer = new IntersectionObserver(callback, {
-  //     threshold: [...new Array(101)].map((_, i) => i / 100),
-  //   });
-
-  //   observer.observe(opacityImage);
-  // }, []);
   return (
     <div>
-      <div
-        className="section sc fp-section fp-table active fp-completely bg-gray-300"
-        // id="section3"
-        // style={{ height: "944px" }}
-      >
+      <div className="section sc fp-section fp-table active fp-completely bg-gray-300">
         <div className="fp-tableCell flex flex-col justify-center items-center">
           <div className="p-12 mt-11 flex rounded-lg bg-gray-200 w-[90%] items-center justify-evenly shadow-custom">
             <div className="clickIcon flex flex-col items-center p-3">
@@ -126,6 +109,7 @@ const Second = () => {
                     <a
                       href="http://www.nhis.or.kr/nhis/healthin/retrieveMdcAdminSknsClinic.do"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       - 병의원약국 찾기
                     </a>
@@ -157,6 +141,7 @@ const Second = () => {
                     <a
                       href="https://www.longtermcare.or.kr/npbs/e/d/770/openBenefitsGuid.web?menuId=npe0000002587&zoomSize="
                       target="_blank"
+                      rel="noreferrer"
                     >
                       - 급여 이용 안내
                     </a>
@@ -165,6 +150,7 @@ const Second = () => {
                     <a
                       href="https://www.longtermcare.or.kr/npbs/d/m/000/moveBoardView?menuId=npe0000000440&bKey=B0055"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       - 민원상담 사례(FAQ)
                     </a>
@@ -173,6 +159,7 @@ const Second = () => {
                     <a
                       href="https://www.longtermcare.or.kr/npbs/r/a/601/npra601m01.web?menuId=npe0000002590"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       - 장기요양 지표
                     </a>
@@ -181,6 +168,7 @@ const Second = () => {
                     <a
                       href="https://www.longtermcare.or.kr/npbs/r/k/501/selectWimItmPrdctGuid.web?menuId=npe0000000730&zoomSize="
                       target="_blank"
+                      rel="noreferrer"
                     >
                       - 복지용구 품목별 제품안내
                     </a>

@@ -1,9 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./daum.css";
-import Header from "../../../Header/Header";
+
 import IntroduceVisual from "./IntroduceVisual";
 import { Link } from "react-router-dom";
-import Footer from "../../../component/Footer";
 import subVisual from "../../../asset/img/image3.jpg";
 const { kakao } = window;
 
@@ -16,15 +15,17 @@ const subVisualData = {
 const Detail = () => {
   const container = useRef(null);
   const options = {
-    center: new kakao.maps.LatLng(37.49983363813386, 126.95181827518353),
+    center: new kakao.maps.LatLng(37.4992573, 126.9521588),
     level: 1,
   };
   useEffect(() => {
     const map = new kakao.maps.Map(container.current, options);
-    const location = [[37.49983363813386, 126.95181827518353]];
+    const location = [[37.4992573, 126.9521588]];
+
     location.map((e) => {
       const markerPosition = new kakao.maps.LatLng(e[0], e[1]);
       new kakao.maps.Marker({ map, position: markerPosition });
+      return null;
     });
   }, []);
 
@@ -73,26 +74,26 @@ const Detail = () => {
         <hr className="my-6" />
         <div className="flex  text-xl my-3">
           <div className="font-bold">주소</div>
-          <div className="ml-16 text-base">서울시 서초구 서초중앙로</div>
+          <div className="ml-16 text-base">서울시 동작구 상도로49길 11 </div>
         </div>
         <div className="flex  text-xl my-3">
           <div className="font-bold">전화</div>
-          <div className="ml-16 text-base">010-1234-5678 / 02-1234-5678</div>
+          <div className="ml-16 text-base">010-8722-2262 / 02-816-5200</div>
         </div>
         <div className="flex  text-xl my-3">
           <div className="font-bold">FAX</div>
-          <div className="ml-16 text-base">080-1234-56789</div>
+          <div className="ml-16 text-base">02-816-5355</div>
         </div>
         <hr className="my-6" />
         <div className="flex  text-xl my-3">
           <div className="font-bold">대중교통(지하철)</div>
           <div className="ml-8 text-base flex items-center">
             <div className="mx-3 flex items-center">
-              <span class="hide_text ico_subway ico_subway07"></span>
+              <span className="hide_text ico_subway ico_subway07"></span>
               <span>상도역</span>
             </div>
             <div className="mx-3 flex items-center">
-              <span class="hide_text ico_subway ico_subway07"></span>
+              <span className="hide_text ico_subway ico_subway07"></span>
               <span>숭실대입구역</span>
             </div>
           </div>

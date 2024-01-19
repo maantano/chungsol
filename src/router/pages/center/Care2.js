@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import img3 from "../../../asset/img/image3.jpg";
-import Header from "../../../Header/Header";
 import IntroduceVisual from "../introduce/IntroduceVisual";
 import subVisual from "../../../asset/img/image5.jpg";
 const subVisualData = {
@@ -14,7 +12,6 @@ const subVisualData = {
 const Care2 = () => {
   return (
     <div className="visitingcare info_vn">
-      {/* <Header /> */}
       <IntroduceVisual data={subVisualData} />
       <div className="depth3">
         <div className="subject">
@@ -94,8 +91,8 @@ const Care2 = () => {
               <div className="mt-14  text-2xl leading-snug flex justify-end text-right ">
                 <div className="flex flex-col leading-relaxed mb-20">
                   <p>사소한 것이라도 성심을 다해 답변드리겠습니다.</p>
-                  <p>문의 전화 : 전화 010-1234-5678 / 02-1234-5678</p>
-                  <p>청솔 재가노인복지 센터</p>
+                  <p>문의 전화 : 전화 010-8722-2262 / 02-816-5200</p>
+                  <p>청솔재가노인복지센터 센터</p>
                 </div>
               </div>
             </div>

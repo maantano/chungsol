@@ -1,34 +1,16 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React from "react";
 import "../asset/common.css";
 import "../asset/detail.css";
 import "../asset/contents.css";
 import logo from "../asset/img/logo.png";
 
 const Main = () => {
-  // useEffect(() => {
-  //   const opacityImage = document.querySelector(".scroll-opacity");
-
-  //   const callback = ([entry], observer) => {
-  //     entry.target.style.opacity = entry.intersectionRatio;
-  //   };
-
-  //   const observer = new IntersectionObserver(callback, {
-  //     threshold: [...new Array(101)].map((_, i) => i / 100),
-  //   });
-
-  //   observer.observe(opacityImage);
-  // }, []);
-
   return (
-    // <div
-    //   className={scrollPosition > 600 ? "scrolled-opacity" : "scroll-opacity"}
-    // >
     <div className="scroll-opacity" id="firstDiv">
       <div>
         <div
           className="section sec1 fp-section fp-table active fp-completely"
           id="section1"
-          //   style="height: 944px;"
           style={{ height: 944 }}
         >
           <div className="size ">

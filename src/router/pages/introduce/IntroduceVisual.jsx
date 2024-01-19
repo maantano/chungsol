@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const IntroduceVisual = (props) => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = props.data.banner;
+
+    img.onload = () => {
+      setLoading(false);
+    };
+  }, [props.data.banner]);
   const bannerPositionChk = props.data.bannerPositionChk || false;
 
   return (
     <div>
-      <div className="sub_visual" style={{ backgroundColor: "black" }}>
+      <div className={`sub_visual ${loading ? "loading" : ""}`}>
         <div
           className="sub_visual"
           style={{

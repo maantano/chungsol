@@ -34,7 +34,8 @@ const Introduce = () => {
         <h2 className="text-gray-700 sub_title">인사말</h2>
         <div className="text-5xl leading-snug flex justify-center flex-col text-center mb-10">
           <p>
-            처음뵙겠습니다.<span className="font-bold">청솔입니다.</span>
+            처음뵙겠습니다.
+            <span className="font-bold">청솔 재가노인복지센터입니다.</span>
           </p>
           <p>홈페이지에 오신 것을 환영합니다.</p>
         </div>
@@ -64,44 +65,26 @@ const Introduce = () => {
               </p>{" "}
               <br />
               <p>
-                저희 청솔재가복지센타에서는 노인성질환(치매등)으로 어려움을 겪고
-                계신 어르신들 및 가족들을 위한 재가복지시설로써 방문요양서비스를
-                제공합니다. 방문요양서비스는{" "}
+                저희 청솔 재가노인복지센터에서는 노인성질환(치매등)으로 어려움을
+                겪고 계신 어르신들 및 가족들을 위한 재가복지시설로써
+                방문요양서비스를 제공합니다. 방문요양서비스는{" "}
                 <span className="font-bold">
                   국가에서 이용금액의 상당부분을 지원해주므로, 부담없이
                   이용하실수
                 </span>{" "}
                 있으며, 전문 요양보호사가 직접 가정에 방문하여 다양한 일상
                 생활과 식사 및 병원 방문 진료등을 도와 드리고 있습니다. 저희
-                청솔재가복지센타는 어르신들에게 편안한 최고의
+                청솔 재가노인복지센터는 어르신들에게 편안한 최고의
                 노인맞춤돌봄서비스를 제공할것을 약속드리며, 보호자님들께는
                 사랑과 신뢰를 받을수 있로록 최선을 다함은 물론, 어르신들의 손과
                 발이되어 편안한 노후를 보내실수 있도록 정성을 다 하겠습니다.
                 <p>감사합니다.</p>
               </p>
-              <p className="text-right text-2xl">청솔 센터장 올림</p>
+              <p className="text-right text-2xl">
+                청솔 재가노인복지센터 센터장 올림
+              </p>
             </div>
           </div>
-          {/* <ul className="">
-            <li className="">
-              <p>
-                안녕하세요. <br />
-                <b>
-                  저희 청솔 홈페이지에 <br />
-                  오신 것을 환영합니다.
-                </b>
-              </p>
-              <p>
-                어떻게 하면 건강하게 <b className="fw900">나다운 삶</b>을
-                지켜가며
-                <br />
-                여생을 보낼 수 있을까에 대한 근본적인 고민을 하며, <br />
-                시대적 변화와 소구에 대한 대안을 찾기 위해
-                <br />
-                전문가들이 모인 집단이 바로 웰더스 스마트 케어입니다.
-              </p>
-            </li>
-          </ul> */}
         </div>
         <div className="mx-12 text-gray-600">
           <div
@@ -123,6 +106,7 @@ const Introduce = () => {
                   <img
                     className={`w-96 h-96 rounded-full object-cover`}
                     src={li1}
+                    alt=""
                   />
                 </div>
               </div>
@@ -131,6 +115,7 @@ const Introduce = () => {
                   <img
                     className="w-96 h-96 rounded-full object-cover"
                     src={li2}
+                    alt=""
                   />
                 </div>
                 <div className="flex flex-col justify-center items-center w-80">
@@ -138,8 +123,9 @@ const Introduce = () => {
                     어르신 존중
                   </span>
                   <p className="text-lg font-medium mb-8 text-center bg-gray-100 bg-opacity-40 p-3 m-1 rounded-xl">
-                    청솔방문요양센터는 언제나 어르신을 존중하고 어르신을 위하며
-                    어르신들이 존중받을 수 있는 사회를 만들기위해 노력한다.
+                    청솔 재가노인복지센터는 언제나 어르신을 존중하고 어르신을
+                    위하며 어르신들이 존중받을 수 있는 사회를 만들기위해
+                    노력한다.
                   </p>
                 </div>
               </div>
@@ -149,13 +135,15 @@ const Introduce = () => {
                     봉사와 헌신
                   </span>
                   <p className="text-lg font-medium mb-8 text-center bg-gray-100 bg-opacity-40 p-3 m-1 rounded-xl">
-                    청솔방문요양센터는 봉사와 헌신의 마음을 최우선으로 한다.
+                    청솔 재가노인복지센터는 봉사와 헌신의 마음을 최우선으로
+                    한다.
                   </p>
                 </div>
                 <div className={`${classes.diagonalLine2}`}>
                   <img
                     className={`w-96 h-96 rounded-full object-cover`}
                     src={li3}
+                    alt=""
                   />
                 </div>
               </div>
