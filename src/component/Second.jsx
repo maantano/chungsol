@@ -8,6 +8,7 @@ import icon3 from "../asset/img/icon3.png";
 import icon4 from "../asset/img/icon4.png";
 import icon5 from "../asset/img/icon5.png";
 import icon6 from "../asset/img/icon6.png";
+import { Link } from "react-router-dom";
 
 const Second = () => {
   return (
@@ -15,67 +16,80 @@ const Second = () => {
       <div className="section sc fp-section fp-table active fp-completely bg-gray-300">
         <div className="fp-tableCell flex flex-col justify-center items-center">
           <div className="p-12 mt-11 flex rounded-lg bg-gray-200 w-[90%] items-center justify-evenly shadow-custom">
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11 "
-                  src={icon1}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            <Link to={"/introduce"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11 "
+                    src={icon1}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">센터소개</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">센터소개</div>
-            </div>
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11"
-                  src={icon2}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            </Link>
+            <Link to={"/detail"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11"
+                    src={icon2}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">오시는 길</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">오시는 길</div>
-            </div>
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11"
-                  src={icon3}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            </Link>
+            <Link to={"/center"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11"
+                    src={icon3}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">노인장기요양보험</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">노인장기요양보험</div>
-            </div>
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11"
-                  src={icon4}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            </Link>
+            <Link to={"/center2"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11"
+                    src={icon4}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">방문요양</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">방문요양</div>
-            </div>
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11"
-                  src={icon5}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            </Link>
+            <Link to={"/process"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11"
+                    src={icon5}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">신청절차</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">신청절차</div>
-            </div>
-            <div className="clickIcon flex flex-col items-center p-3">
-              <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
-                <img
-                  className="w-11 h-11"
-                  src={icon6}
-                  alt="Icon made by Pixel perfect from www.flaticon.com"
-                />
+            </Link>
+            <Link to={"/grade"}>
+              <div className="clickIcon flex flex-col items-center p-3">
+                <div className="rounded-full w-20 h-20 flex items-center justify-center bg-opacity-30">
+                  <img
+                    className="w-11 h-11"
+                    src={icon6}
+                    alt="Icon made by Pixel perfect from www.flaticon.com"
+                  />
+                </div>
+                <div className="mt-2 text-lg font-[600]">등급판정</div>
               </div>
-              <div className="mt-2 text-lg font-[600]">등급판정</div>
-            </div>
+            </Link>
           </div>
+
           <div className="flex justify-between gap-20 my-10">
             <div className="h-[350px] w-[350px] bg-indigo-200 items-center flex rounded-xl flex-col">
               <div className="text-xl font-semibold mt-3">검색서비스</div>
