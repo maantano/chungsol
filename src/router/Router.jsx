@@ -17,7 +17,7 @@ const Router = () => {
       <Header />
       <ScrollTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/chungsol" element={<Home />} />
         <Route path="/introduce" element={<Introduce />} />
         <Route path="/detail" element={<Detail />} />
         <Route path="/center" element={<Care1 />} />
