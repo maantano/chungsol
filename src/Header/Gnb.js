@@ -3,7 +3,7 @@ import "./GNB.css";
 
 function Gnb() {
   const menuList = [
-    { name: "훔", link: "/chungsol" },
+    { name: "훔", link: "/" },
     { name: "센터소개", link: "/introduce" },
     { name: "노인장기요양보험", link: "/center" },
     { name: "노인돌봄서비스", link: "/center2" },
