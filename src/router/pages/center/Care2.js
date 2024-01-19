@@ -91,7 +91,7 @@ const Care2 = () => {
               <div className="mt-14  text-2xl leading-snug flex justify-end text-right ">
                 <div className="flex flex-col leading-relaxed mb-20">
                   <p>사소한 것이라도 성심을 다해 답변드리겠습니다.</p>
-                  <p>문의 전화 : 전화 010-8722-2262 / 02-816-5200</p>
+                  <p>문의 전화 : 010-8722-2262 / 02-816-5200</p>
                   <p>청솔재가노인복지센터 센터</p>
                 </div>
               </div>

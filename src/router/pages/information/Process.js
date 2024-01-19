@@ -69,7 +69,7 @@ const Process = () => {
                       </p>
                       <p className="leading-relaxed">
                         <span className="font-bold">
-                          전화상담 : 010-1234-5678
+                          전화상담 : 010-8722-2262 / 02-816-5200
                         </span>
                       </p>
                     </div>

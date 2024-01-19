@@ -43,15 +43,15 @@ const Fourth = () => {
             </div>
 
             <div className="text-xl font-semibold">문의상담</div>
-            <div className="text-base mt-3">010-1234-1234</div>
-            <div className="text-base">010-1234-1234</div>
+            <div className="text-base mt-3">010-8722-2262</div>
+            <div className="text-base">010-816-5355</div>
           </div>
         </div>
       </div>
       <div className="bg-gray-100 p-4 my-4 rounded-md bg-opacity-70">
         <div className="text-3xl mb-5">
           찾아오시는 길
-          <div className="text-xl">서울시 서초구 서초중앙로200</div>
+          <div className="text-xl">서울시 동작구 상도로 49길 11, 1층 </div>
         </div>
         <div
           id={"map"}
