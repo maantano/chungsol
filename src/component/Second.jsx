@@ -153,7 +153,7 @@ const Second = () => {
                 <ul className="p-4">
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/e/d/770/openBenefitsGuid.web?menuId=npe0000002587&zoomSize="
+                      href="//www.longtermcare.or.kr/npbs/e/d/770/openBenefitsGuid.web?menuId=npe0000002587&zoomSize="
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -162,7 +162,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/d/m/000/moveBoardView?menuId=npe0000000440&bKey=B0055"
+                      href="//www.longtermcare.or.kr/npbs/d/m/000/moveBoardView?menuId=npe0000000440&bKey=B0055"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -171,7 +171,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/r/a/601/npra601m01.web?menuId=npe0000002590"
+                      href="//www.longtermcare.or.kr/npbs/r/a/601/npra601m01.web?menuId=npe0000002590"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -180,7 +180,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/r/k/501/selectWimItmPrdctGuid.web?menuId=npe0000000730&zoomSize="
+                      href="//www.longtermcare.or.kr/npbs/r/k/501/selectWimItmPrdctGuid.web?menuId=npe0000000730&zoomSize="
                       target="_blank"
                       rel="noreferrer"
                     >
