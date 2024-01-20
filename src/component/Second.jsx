@@ -97,7 +97,7 @@ const Second = () => {
                 <ul className="p-4">
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/r/a/201/selectLtcoSrch.web?menuId=npe0000000650"
+                      href="//www.longtermcare.or.kr/npbs/r/a/201/selectLtcoSrch.web?menuId=npe0000000650"
                       target="_blank"
                     >
                       - 장기요양기관 찾기
@@ -105,7 +105,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/r/e/501/openMdcareMcpcEduAdmin.web?menuId=npe0000001100"
+                      href="//www.longtermcare.or.kr/npbs/r/e/501/openMdcareMcpcEduAdmin.web?menuId=npe0000001100"
                       target="_blank"
                     >
                       - 요양보호사 교육기관 찾기
@@ -113,7 +113,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/e/b/201/selectDodEduCpetMdcAdminList.web?menuId=npe0000000080"
+                      href="//www.longtermcare.or.kr/npbs/e/b/201/selectDodEduCpetMdcAdminList.web?menuId=npe0000000080"
                       target="_blank"
                     >
                       - 의사소견서 교육이수기관
@@ -130,7 +130,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/cms/board/board/Board.jsp?searchType=ALL&amp;searchWord=&amp;list_start_date=&amp;list_end_date=&amp;pageSize=&amp;branch_id=&amp;branch_child_id=&amp;pageNum=1&amp;list_show_answer=N&amp;communityKey=B0020&amp;boardId=60024&amp;act=VIEW"
+                      href="//www.longtermcare.or.kr/npbs/cms/board/board/Board.jsp?searchType=ALL&amp;searchWord=&amp;list_start_date=&amp;list_end_date=&amp;pageSize=&amp;branch_id=&amp;branch_child_id=&amp;pageNum=1&amp;list_show_answer=N&amp;communityKey=B0020&amp;boardId=60024&amp;act=VIEW"
                       target="_blank"
                     >
                       - 인지훈련도구자료집PDF
@@ -138,7 +138,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/r/e/558/openLtcoBusiGuid.web?menuId=npe0000001080"
+                      href="//www.longtermcare.or.kr/npbs/r/e/558/openLtcoBusiGuid.web?menuId=npe0000001080"
                       target="_blank"
                     >
                       - 장기요양기관 업무안내
@@ -153,7 +153,7 @@ const Second = () => {
                 <ul className="p-4">
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr/npbs/e/d/770/openBenefitsGuid.web?menuId=npe0000002587&zoomSize="
+                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/e/d/770/openBenefitsGuid.web?menuId=npe0000002587&zoomSize="
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -162,7 +162,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr/npbs/d/m/000/moveBoardView?menuId=npe0000000440&bKey=B0055"
+                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/d/m/000/moveBoardView?menuId=npe0000000440&bKey=B0055"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -171,7 +171,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr/npbs/r/a/601/npra601m01.web?menuId=npe0000002590"
+                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/r/a/601/npra601m01.web?menuId=npe0000002590"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -180,7 +180,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="https://www.longtermcare.or.kr/npbs/r/k/501/selectWimItmPrdctGuid.web?menuId=npe0000000730&zoomSize="
+                      href="https://www.longtermcare.or.kr//www.longtermcare.or.kr/npbs/r/k/501/selectWimItmPrdctGuid.web?menuId=npe0000000730&zoomSize="
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -196,7 +196,7 @@ const Second = () => {
                 <ul className="p-4">
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/u/b/101/openLtcRcgtAplyPttnChoice.web?aplyTypeScr=appltit&amp;menuId=npe0000000500"
+                      href="//www.longtermcare.or.kr/npbs/u/b/101/openLtcRcgtAplyPttnChoice.web?aplyTypeScr=appltit&amp;menuId=npe0000000500"
                       target="_blank"
                     >
                       - 장기요양 인정신청
@@ -204,7 +204,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/u/e/201/openGjuRsltRissuePttn.web?menuId=npe0000002572"
+                      href="//www.longtermcare.or.kr/npbs/u/e/201/openGjuRsltRissuePttn.web?menuId=npe0000002572"
                       target="_blank"
                     >
                       - 등급판정결과조회
@@ -212,7 +212,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/g/h/101/openSelfBrdnHwangubAplyPttn.web?menuId=npe0000000520"
+                      href="//www.longtermcare.or.kr/npbs/g/h/101/openSelfBrdnHwangubAplyPttn.web?menuId=npe0000000520"
                       target="_blank"
                     >
                       - 본인부담환급금
@@ -220,7 +220,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/u/g/101/openMitgObjtrAplyPttnChoice.web?menuId=npe0000002573"
+                      href="//www.longtermcare.or.kr/npbs/u/g/101/openMitgObjtrAplyPttnChoice.web?menuId=npe0000002573"
                       target="_blank"
                     >
                       - 감경신청서 작성
@@ -228,7 +228,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/m/c/304/selectDmrList.web?menuId=npe0000002570"
+                      href="//www.longtermcare.or.kr/npbs/m/c/304/selectDmrList.web?menuId=npe0000002570"
                       target="_blank"
                     >
                       - 심사청구
@@ -236,7 +236,7 @@ const Second = () => {
                   </li>
                   <li className="text-base my-2">
                     <a
-                      href="/npbs/i/a/601/openWelToolPaymtCfrDocChoice.web"
+                      href="//www.longtermcare.or.kr/npbs/i/a/601/openWelToolPaymtCfrDocChoice.web"
                       target="_blank"
                     >
                       - 복지용구 추가급여신청
