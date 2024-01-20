@@ -105,18 +105,20 @@ const Detail = () => {
               <span className="icon_bus">간선</span>
             </span>
 
+            <span className="verticalLine mx-2 text-base">501번</span>
+            <span className="verticalLine mx-2 text-base">506번</span>
+            <span className="verticalLine mx-2 text-base">641번</span>
+            <span className="verticalLine mx-2 text-base">650번</span>
+            <span className="verticalLine mx-2 text-base">750번</span>
+            <span className="verticalLine mx-2 text-base">751번</span>
             <span className="verticalLine mx-2 text-base">752번</span>
             <span className="verticalLine mx-2 text-base">753번</span>
-            <span className="verticalLine mx-2 text-base">360번</span>
           </div>
           <div className="mx-3 flex items-center">
             <span className=" ico_bus2 ">
               <span className="icon_bus">간선</span>
             </span>
-            <span className="verticalLine mx-2 text-base">4319번</span>
-            <span className="verticalLine mx-2 text-base">1213번</span>
-            <span className="verticalLine mx-2 text-base">4872번</span>
-            <span className="verticalLine mx-2 text-base">5951번</span>
+            <span className="verticalLine mx-2 text-base">5517번</span>
           </div>
           <div className="mx-3 flex items-center">
             <span className=" ico_bus7 ">
@@ -125,6 +127,19 @@ const Detail = () => {
             <span className="verticalLine mx-2 text-base">동작 01번</span>
             <span className="verticalLine mx-2 text-base">동작 08번</span>
           </div>
+        </div>
+        <hr className="my-6" />
+        <div className="flex  text-base flex-col">
+          <div className="font-medium">
+            - 지하철 7호선 숭실대입구역 3번출구에서 나와 약 250m 직진하시여
+            살림교회 사이 골목으로 들어오시면 눈높이학원 1층에 위치합니다.
+          </div>
+          <div className="font-medium">
+            - 대중버스 이용시는 상도전통시장 정류장에 하차하시어 약 50m 버스
+            진행 방향으로 직진하시고, 골목으로 약 100m 걸어오시면 1층에
+            위치합니다.
+          </div>
+          <div className="font-medium">- 건물 주차장 주차 가능</div>
         </div>
       </div>
     </>
